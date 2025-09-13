@@ -7941,8 +7941,12 @@ MonoBehaviour:
   CurrentLang: 0
   SpeedAnim: 0.3
   TextJuicer: {fileID: 1703965067}
-  uzb: KJEfdshfoifdklfk ofjadfjkflkf
+  uzb: "Ko\u2018rgazma xaritasi"
   rus: "\u041A\u0430\u0440\u0442\u0430 \u044D\u043A\u0441\u043F\u043E\u0437\u0438\u0446\u0438\u0438"
+  LangList:
+  - "Ko\u2018rgazma xaritasi"
+  - "\u041A\u0430\u0440\u0442\u0430 \u044D\u043A\u0441\u043F\u043E\u0437\u0438\u0446\u0438\u0438"
+  CurrentCart: {fileID: 0}
 --- !u!1 &1150128496
 GameObject:
   m_ObjectHideFlags: 0

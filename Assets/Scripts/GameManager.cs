@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour
     public TMP_TextJuicer TextJuicer;
     public string uzb;
     public string rus;
+    public List<string> LangList = new List<string>();
 
     private bool _animButtons;
     private Color _color;
@@ -104,22 +105,22 @@ public class GameManager : MonoBehaviour
     private void OnUzb()
     {
         CurrentLang = 0;
-        StartCoroutine(ChangeLang(b_Uzb.image, uzb));
+        StartCoroutine(ChangeLang(b_Uzb.image));
     }
 
     private void OnRus()
     {
         CurrentLang = 1;
-        StartCoroutine(ChangeLang(b_Rus.image, rus));
+        StartCoroutine(ChangeLang(b_Rus.image));
     }
 
-    IEnumerator ChangeLang(Image image, string text)
+    IEnumerator ChangeLang(Image image)
     {
         b_Rus.enabled = false;
         b_Uzb.enabled = false;
         b_Eng.enabled = false;
         b_Arab.enabled = false;
-        TextJuicer.Text = text;
+        TextJuicer.Text = LangList[CurrentLang];
         TextJuicer.SetProgress(0f);
         TextJuicer.Update();
         float progress = 0f;
