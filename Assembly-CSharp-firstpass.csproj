@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8c218439-8738-9fb2-7fc1-83dce1be8f7a}</ProjectGuid>
+    <ProjectGuid>{ba2c4c91-543c-d31d-e73d-70c614ef2999}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -304,13 +304,13 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.39f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
-      <HintPath>C:\Project\F_Uzbekistan\Navigation(1.4)\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:\Project\F_Uzbekistan\Navigation(1.4)\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>C:\Project\F_Uzbekistan\Navigation(1.4)\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.39f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -687,183 +687,144 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.39f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Project\F_Uzbekistan\Navigation(1.4)\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:\Project\F_Uzbekistan\Navigation(1.4)\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Project\F_Uzbekistan\Navigation(1.4)\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:\Project\F_Uzbekistan\Navigation(1.4)\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>C:\Users\ladmin.vizotron\Desktop\ProjectUzb\1_4_Navigation\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="TextJuicer.csproj">
-      <Project>{a1b503c6-4b33-cc1b-7610-81b6994d1d82}</Project>
+      <Project>{eebd86bc-a913-7e43-4999-874c5e53be71}</Project>
       <Name>TextJuicer</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
-      <Project>{b20b5bc2-a123-fd31-290e-2855ece72d99}</Project>
-      <Name>Unity.2D.IK.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{2a1ea8ee-575f-db0a-2c4e-627e0866cb28}</Project>
-      <Name>PsdPlugin</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{131bba5a-2db6-32ab-ae33-cdba088a47fd}</Project>
-      <Name>Unity.Burst.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{e472dfe3-67f7-0fdd-3cac-60247a6d1bfa}</Project>
-      <Name>Unity.Burst</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Path.Editor.csproj">
-      <Project>{a9a59c44-8564-df9d-ef92-1fd12a9b7573}</Project>
-      <Name>Unity.2D.Common.Path.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="TextJuicer-Editor.csproj">
-      <Project>{78cceae8-55ee-8453-0183-be1c40cb3cfb}</Project>
+      <Project>{f1beb15c-7793-f81a-58f1-30bdbaf50c22}</Project>
       <Name>TextJuicer-Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{39a17874-44f4-617b-19f1-35e3ca8ee8d5}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{3fde5085-6423-5171-d690-6af379e03095}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{caac3352-9ce1-ab03-d965-4198be37425f}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{8337f6b9-8ad6-2ee0-3122-6d71e78b95a0}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{8859e839-9615-3542-6d6a-467ea6912509}</Project>
-      <Name>Unity.2D.Animation.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{278d1777-37d0-91ea-f947-ca7f9814438c}</Project>
-      <Name>Unity.2D.Tilemap.Extras</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{b5de62b4-6b96-b4b1-f098-2ae37673a6c3}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{7b5da9f2-b55b-9bae-8fbf-07167907fe24}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
-      <Project>{782b6955-c185-0095-ee57-5c4a445fea04}</Project>
-      <Name>Unity.2D.PixelPerfect.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Aseprite.Common.csproj">
-      <Project>{faf85a02-77d8-afa2-b940-8584c44ea3f2}</Project>
-      <Name>Unity.2D.Aseprite.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{8a50ca00-7de6-57cb-ae6c-095efb1d96f9}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{6a261e8d-e74e-d1cf-e407-3d44ebf71d3a}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{fcfd61bb-5d99-f83e-ed4c-42e52bd99cde}</Project>
-      <Name>Unity.InternalAPIEngineBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{2c037f9c-2b60-155a-44f1-c87b8b2bf210}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{50427bd4-e989-003d-b48e-69e6b542ed86}</Project>
-      <Name>Unity.2D.Common.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{8767fbd9-e822-1bd9-167d-6f27e8de1a2e}</Project>
-      <Name>Unity.2D.Tilemap.Extras.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{070a5556-cc9f-082a-51a5-b82f9ca614bd}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{d865072b-3d59-8c64-09f2-6636bc47a921}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Collections.csproj">
-      <Project>{fd9a8b48-2578-3ab1-5868-692dbaddb479}</Project>
-      <Name>Unity.Collections</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{13ed286c-4fbf-76ec-1c55-dea54273a061}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
-      <Project>{7e6de397-5362-3cb1-1cff-fa5b48572ae8}</Project>
-      <Name>Unity.2D.Psdimporter.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{af85216a-a862-fc60-f5dd-0ad283619590}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{76efa86f-6c67-6761-ba42-5213a3543373}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{4a31ef59-509c-0457-e54d-3155b143c1e8}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
-      <Project>{30cae63e-08e5-47ce-cced-85e22d5e825d}</Project>
-      <Name>Unity.2D.PixelPerfect</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{41eaf655-0f82-8525-7502-f7629a3658e9}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{f8eaadf7-8403-b27c-ee5e-3e84452c9469}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{8de379f9-0cd8-9015-861b-76e79b5a0cfb}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{017754f8-522d-309d-4ef6-96477362dbaa}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Aseprite.Editor.csproj">
-      <Project>{54d302cf-fb05-56b1-3406-ea174922aff6}</Project>
-      <Name>Unity.2D.Aseprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{fb802e28-f88e-be64-4b57-11a39424d99a}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
-      <Project>{dcbec0db-360a-9466-7380-776e4a975f4d}</Project>
-      <Name>Unity.2D.SpriteShape.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{e054f360-8d51-f527-7188-0197265436da}</Project>
-      <Name>Unity.2D.Animation.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.IK.Editor.csproj">
-      <Project>{32b198e6-203d-ff31-9549-be9dc80a4c0e}</Project>
-      <Name>Unity.2D.IK.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
