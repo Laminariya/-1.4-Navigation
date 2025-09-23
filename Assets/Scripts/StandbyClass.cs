@@ -8,7 +8,8 @@ public class StandbyClass : MonoBehaviour
 {
     
     private Button _button;
-    
+
+    public float Timeout;
     public Image Gradient;
     public TMP_TextJuicer NameText;
     public TMP_TextJuicer DescriptionText;
@@ -32,7 +33,7 @@ public class StandbyClass : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!_isActive && Time.time - _time > 10f)
+        if (!_isActive && Time.time - _time > Timeout)
         {
             Show();
         }
