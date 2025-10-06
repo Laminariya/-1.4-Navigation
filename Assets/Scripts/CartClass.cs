@@ -49,25 +49,43 @@ public class CartClass : MonoBehaviour
         GameManager.instance.OnAllButton();
     }
 
-    private void Show()
+    public void Show()
     {
-        GameManager.instance.CurrentCart = this;
-        _subCarts[GameManager.instance.CurrentLang].Show();
+        GameManager.instance.OffLangButtons();
+        if (gameObject.activeSelf)
+        {
+            StartCoroutine(ChangeLanguage());
+        }
+        else
+        {
+            foreach (var subCart in _subCarts)
+            {
+                subCart.Hide();
+            }
+
+            _subCarts[GameManager.instance.CurrentLang].Show();
+            b_Back.gameObject.SetActive(false);
+            
+            NameText.SetProgress(0f);
+            NameText.Update();
+            DiscriptionText.SetProgress(0f);
+            DiscriptionText.Update();
+            NameText.enabled = false;
+            DiscriptionText.enabled = false;
+            NameText.GetComponent<TMP_Text>().color = Color.clear;
+            DiscriptionText.GetComponent<TMP_Text>().color = Color.clear;
+            GameManager.instance.CurrentCart = this;
+            Cart.color = Color.clear;
+            GameManager.instance.OffAllButton();
+            GameManager.instance.DeactivateAnimButtons();
+            _areolla.transform.DOPunchScale(Vector3.one*0.5f, 0.4f, 1, 1f).OnComplete(ShowFill);
+            b_Activate.transform.DOPunchScale(b_Activate.transform.localScale * 0.2f, 0.4f, 0, 1f);
+            gameObject.SetActive(true);
+        }
         
-        Cart.color = Color.clear;
-        
-        b_Back.gameObject.SetActive(false);
-        GameManager.instance.OffAllButton();
-        GameManager.instance.DeactivateAnimButtons();
-        _areolla.transform.DOPunchScale(Vector3.one*0.5f, 0.4f, 1, 1f).OnComplete(ShowFill);
-        b_Activate.transform.DOPunchScale(b_Activate.transform.localScale * 0.2f, 0.4f, 0, 1f);
-        gameObject.SetActive(true);
-        
-        NameText.SetProgress(0f);
-        NameText.Update();
-        DiscriptionText.SetProgress(0f);
-        DiscriptionText.Update();
     }
+    
+    
 
     private void ShowFill()
     {
@@ -76,6 +94,11 @@ public class CartClass : MonoBehaviour
 
     private void ShowGradient()
     {
+        NameText.GetComponent<TMP_Text>().color = Color.white;
+        DiscriptionText.GetComponent<TMP_Text>().color = Color.white;
+        NameText.enabled = true;
+        DiscriptionText.enabled = true;
+        
         Gradient.color = new Color(1, 1f, 1f, 0f);
         Cart.DOColor(Color.white, 0.4f).SetDelay(0.1f).OnComplete(ShowCart);
         Gradient.DOColor(Color.white, 0.5f);
@@ -85,7 +108,6 @@ public class CartClass : MonoBehaviour
 
     private void ShowCart()
     {
-        
         StartCoroutine(ProgressAnimation());
     }
 
@@ -93,9 +115,10 @@ public class CartClass : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         float progress = 0f;
-        while (progress < 1f)
+        while (progress < 0.999f)
         {
             progress += Time.deltaTime * GameManager.instance.SpeedAnim*6f;
+            if (progress > 0.999f) progress = 1f;
             NameText.SetProgress(progress);
             NameText.Update();
             yield return null;
@@ -106,10 +129,10 @@ public class CartClass : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         float progress = 0f;
-        while (progress < 1f)
+        while (progress < 0.999f)
         {
             progress += Time.deltaTime * GameManager.instance.SpeedAnim * 2f;
-
+            if (progress > 0.999f) progress = 1f;
             DiscriptionText.SetProgress(progress);
             DiscriptionText.Update();
 
@@ -117,6 +140,7 @@ public class CartClass : MonoBehaviour
         }
 
         b_Back.gameObject.SetActive(true);
+        GameManager.instance.OnLangButtons();
     }
 
     private void OnBack()
@@ -130,10 +154,10 @@ public class CartClass : MonoBehaviour
     {
         
         float progress = 1f;
-        while (progress > 0f)
+        while (progress > 0.001f)
         {
             progress -= Time.deltaTime * GameManager.instance.SpeedAnim * 4f;
-
+            if (progress < 0.001f) progress = 0f;
             NameText.SetProgress(progress);
             NameText.Update();
             DiscriptionText.SetProgress(progress);
@@ -145,6 +169,42 @@ public class CartClass : MonoBehaviour
         Filling.DOColor(Color.clear, 0.4f);
         Gradient.DOColor(Color.clear, 0.4f);
         Cart.DOColor(Color.clear, 0.4f).OnComplete(Hide);
+    }
+    
+    IEnumerator ChangeLanguage()
+    {
+        b_Back.gameObject.SetActive(false);
+        float progress = 1f;
+        while (progress > 0.001f)
+        {
+            progress -= Time.deltaTime * GameManager.instance.SpeedAnim * 4f;
+            if (progress < 0.001f) progress = 0f;
+            NameText.SetProgress(progress);
+            NameText.Update();
+            DiscriptionText.SetProgress(progress);
+            DiscriptionText.Update();
+            GameManager.instance.OffLangButtons();
+            yield return null;
+        }
+
+        foreach (var subCart in _subCarts)
+        {
+            subCart.Hide();
+        }
+
+        Cart.color = Color.clear;
+        _subCarts[GameManager.instance.CurrentLang].Show();
+        b_Back.gameObject.SetActive(false);
+        NameText.SetProgress(0f);
+        NameText.Update();
+        DiscriptionText.SetProgress(0f);
+        DiscriptionText.Update();
+        GameManager.instance.CurrentCart = this;
+        Cart.color = Color.clear;
+        GameManager.instance.OffAllButton();
+        GameManager.instance.DeactivateAnimButtons();
+        gameObject.SetActive(true);
+        ShowGradient();
     }
 
 }

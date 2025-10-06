@@ -48,6 +48,7 @@ public class StandbyClass : MonoBehaviour
     {
         if(GameManager.instance.CurrentCart!=null)
             GameManager.instance.CurrentCart.Hide();
+        GameManager.instance.OnStandby();
         _isActive = true;
         _button.gameObject.SetActive(false);
         Gradient.gameObject.SetActive(true);
@@ -60,6 +61,7 @@ public class StandbyClass : MonoBehaviour
 
     public void Hide()
     {
+        GameManager.instance.OffStandby();
         _button.gameObject.SetActive(false);
         StartCoroutine(HideCoroutine());
     }

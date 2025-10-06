@@ -39,6 +39,10 @@ public class SubCartClass : MonoBehaviour
     public void Hide()
     {
         CartImage.color = Color.clear;
+        NameText.SetProgress(0);
+        NameText.Update();
+        DiscriptionText.SetProgress(0);
+        DiscriptionText.Update();
         gameObject.SetActive(false);
     }
 
