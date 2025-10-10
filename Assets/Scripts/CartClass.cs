@@ -52,6 +52,7 @@ public class CartClass : MonoBehaviour
     public void Show()
     {
         GameManager.instance.OffLangButtons();
+        GameManager.instance.AnimHand.SetActive(false);
         if (gameObject.activeSelf)
         {
             StartCoroutine(ChangeLanguage());
@@ -146,6 +147,7 @@ public class CartClass : MonoBehaviour
     private void OnBack()
     {
         GameManager.instance.ActivateAnimButtons();
+        GameManager.instance.AnimHand.SetActive(true);
         b_Back.gameObject.SetActive(false);
         StartCoroutine(BackCoroutine());
     }
@@ -205,6 +207,7 @@ public class CartClass : MonoBehaviour
         GameManager.instance.DeactivateAnimButtons();
         gameObject.SetActive(true);
         ShowGradient();
+        GameManager.instance.AnimHand.SetActive(false);
     }
 
 }

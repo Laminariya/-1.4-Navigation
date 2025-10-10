@@ -48,11 +48,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        CurrentLang = 1;
         _standbyClass = FindObjectOfType<StandbyClass>(true);
         _color = b_Uzb.image.color;
         b_Uzb.onClick.AddListener(OnUzb);
         b_Rus.onClick.AddListener(OnRus);
-        
         _animButtons = true;
         Carts = GetComponentsInChildren<CartClass>(true).ToList();
         foreach (var cart in Carts)
@@ -62,7 +62,6 @@ public class GameManager : MonoBehaviour
         OnAllButton();
         _standbyClass.Init();
         StartCoroutine(AnimActivateButtons());
-        CurrentLang = 1;
         StartCoroutine(ChangeLang(b_Rus.image));
     }
 

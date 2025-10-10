@@ -13,6 +13,10 @@ public class StandbyClass : MonoBehaviour
     public Image Gradient;
     public TMP_TextJuicer NameText;
     public TMP_TextJuicer DescriptionText;
+
+    public TMP_TextJuicer NameUzb;
+    public TMP_TextJuicer DescriptionUzb;
+    
     public TMP_TextJuicer HandText;
     public GameObject Hand;
     
@@ -52,8 +56,23 @@ public class StandbyClass : MonoBehaviour
         _isActive = true;
         _button.gameObject.SetActive(false);
         Gradient.gameObject.SetActive(true);
-        NameText.gameObject.SetActive(true);
-        DescriptionText.gameObject.SetActive(true);
+        if (GameManager.instance.CurrentLang == 0)
+        {
+            NameText.gameObject.SetActive(false);
+            DescriptionText.gameObject.SetActive(false);
+            NameUzb.gameObject.SetActive(true);
+            DescriptionUzb.gameObject.SetActive(true);
+        }
+
+        if (GameManager.instance.CurrentLang == 1)
+        {
+            NameText.gameObject.SetActive(true);
+            DescriptionText.gameObject.SetActive(true);
+            NameUzb.gameObject.SetActive(false);
+            DescriptionUzb.gameObject.SetActive(false);
+        }
+
+       
         HandText.gameObject.SetActive(true);
         //Hand.SetActive(true);
         StartCoroutine(ShowCoroutine());
@@ -68,8 +87,8 @@ public class StandbyClass : MonoBehaviour
 
     IEnumerator HideCoroutine()
     {
-        NameText.Text = Names[GameManager.instance.CurrentLang];
-        DescriptionText.Text = Descriptions[GameManager.instance.CurrentLang];
+        //NameText.Text = Names[GameManager.instance.CurrentLang];
+        //DescriptionText.Text = Descriptions[GameManager.instance.CurrentLang];
         HandText.Text = Hands[GameManager.instance.CurrentLang];
         Gradient.color = new Color(1f,1f,1f,1f);
         float progress = 1f;
@@ -80,6 +99,10 @@ public class StandbyClass : MonoBehaviour
             NameText.Update();
             DescriptionText.SetProgress(progress);
             DescriptionText.Update();
+            NameUzb.SetProgress(progress);
+            NameUzb.Update();
+            DescriptionUzb.SetProgress(progress);
+            DescriptionUzb.Update();
             HandText.SetProgress(progress);
             HandText.Update();
             yield return null;
@@ -99,14 +122,16 @@ public class StandbyClass : MonoBehaviour
         Gradient.gameObject.SetActive(false);
         NameText.gameObject.SetActive(false);
         DescriptionText.gameObject.SetActive(false);
+        NameUzb.gameObject.SetActive(false);
+        DescriptionUzb.gameObject.SetActive(false);
         HandText.gameObject.SetActive(false);
         Hand.SetActive(false);
     }
 
     IEnumerator ShowCoroutine()
     {
-        NameText.Text = Names[GameManager.instance.CurrentLang];
-        DescriptionText.Text = Descriptions[GameManager.instance.CurrentLang];
+        //NameText.Text = Names[GameManager.instance.CurrentLang];
+        //DescriptionText.Text = Descriptions[GameManager.instance.CurrentLang];
         HandText.Text = Hands[GameManager.instance.CurrentLang];
         Gradient.color = new Color(1f,1f,1f,0f);
         Hand.SetActive(false);
@@ -118,6 +143,12 @@ public class StandbyClass : MonoBehaviour
             NameText.Update();
             DescriptionText.SetProgress(progress);
             DescriptionText.Update();
+            
+            NameUzb.SetProgress(progress);
+            NameUzb.Update();
+            DescriptionUzb.SetProgress(progress);
+            DescriptionUzb.Update();
+            
             HandText.SetProgress(progress);
             HandText.Update();
             Gradient.color = new Color(1f,1f,1f,progress);

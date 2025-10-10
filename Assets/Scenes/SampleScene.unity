@@ -510,8 +510,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1081, y: 1809}
-  m_SizeDelta: {x: 1727.4926, y: 2610.9998}
+  m_AnchoredPosition: {x: 1080, y: 1931}
+  m_SizeDelta: {x: 1728.0079, y: 2854}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75430943
 MonoBehaviour:
@@ -1122,12 +1122,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Yangi O\u2018zbekiston \u2013 Yangi Renassans poydevori zaliga xush kelibsiz!\nBu
-    zalda Yangi O'zbekiston orzusi va uni amalga oshirish - bu shunchaki istak yoki
-    subyektiv intilish emas, balki chuqur tarixiy shartlarga asoslangan obyektiv
-    zarurat ekani, mamlakatimizning hozirgi siyosiy-huquqiy, ijtimoiy-iqtisodiy,
-    tashqi siyosat va ma'naviy-ma'rifiy sohalardagi islohotlari bu orzuga mos tarzda
-    rivojlanayotgani ko\u2018rsatilgan."
+  m_text: "\u201CYangi O\u2018zbekiston \u2013 Yangi Renassans poydevori\u201D ekspozitsiyasiga
+    xush kelibsiz!\LBu ekspozitsiyasida Yangi O\u2018zbekiston orzusi va uni amalga
+    oshirish \u2013 bu shunchaki istak yoki subyektiv intilish emas, balki chuqur
+    tarixiy shartlarga asoslangan obyektiv zarurat ekani, mamlakatimizning hozirgi
+    siyosiy-huquqiy, ijtimoiy-iqtisodiy, tashqi siyosat va ma\u2019naviy-ma\u2019rifiy
+    sohalardagi islohotlari bu orzuga mos tarzda rivojlanayotgani ko\u2018rsatilgan."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
@@ -1857,7 +1857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &218376004
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2734,7 +2734,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &315404640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3923,10 +3923,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tashqi siyosat va mamlakat xavfsizligi
+  m_text: "\u201CTashqi siyosat va mamlakat xavfsizligi\u201D bo\u2018limi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3989,7 +3989,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &376646863
@@ -4018,7 +4018,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &380922424
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4263,7 +4263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &426274662
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5250,6 +5250,208 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532009274}
   m_CullTransparentMesh: 1
+--- !u!1 &536143293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536143294}
+  - component: {fileID: 536143298}
+  - component: {fileID: 536143297}
+  - component: {fileID: 536143296}
+  - component: {fileID: 536143295}
+  m_Layer: 5
+  m_Name: Text (TMP) Uzb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &536143294
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536143293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1623888756}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 38.998, y: -143}
+  m_SizeDelta: {x: 1377.9, y: 714.9761}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &536143295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536143293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b661b023a9e41999abbce427a0dd232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 0}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+--- !u!114 &536143296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536143293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af110d25dad1452fa91629d7cf2bd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tmpText: {fileID: 536143297}
+  duration: 1
+  delay: 0.05
+  progress: 1
+  playWhenReady: 0
+  loop: 0
+  playForever: 0
+  animationControlled: 1
+--- !u!114 &536143297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536143293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Bu ekspozitsiyada Yangi O\u2018zbekiston orzusi va uni amalga oshirish
+    \u2013 bu shunchaki istak yoki subyektiv intilish emas, balki chuqur tarixiy
+    shartlarga asoslangan obyektiv zarurat ekani, mamlakatimizning hozirgi siyosiy-huquqiy,
+    ijtimoiy-iqtisodiy, tashqi siyosat va ma\u2019naviy-ma\u2019rifiy sohalardagi
+    islohotlari bu orzuga mos tarzda rivojlanayotgani ko\u2018rsatilgan.\_"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 64
+  m_fontSizeBase: 64
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &536143298
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536143293}
+  m_CullTransparentMesh: 1
 --- !u!1 &540612833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5406,14 +5608,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mazkur hudud yoshlarga oid davlat siyosati va Prezidentning beshta eng
-    muhim tashabbusini aks ettiradi, shuningdek, Yangi O\u2018zbekistonda yosh avlodning
-    rivojlanish istiqbollarini ko\u2018rsatib beradi. \"Kelajak orzulari\" interfaol
-    foto maydoni tashrif buyuruvchilarga o\u2018zlarini kelajakdagi Yangi O\u2018zbekiston
-    o\u2018zgarishlarining bir qismi sifatida his qilish imkonini yaratadi."
+  m_text: "Mazkur bo\u2018lim yoshlarga oid davlat siyosati va Prezidentning beshta
+    eng muhim tashabbusini aks ettiradi, shuningdek, Yangi O\u2018zbekistonda yosh
+    avlodning rivojlanish istiqbollarini ko\u2018rsatib beradi. \u201CKelajak orzulari\u201D
+    interfaol foto maydoni tashrif buyuruvchilarga o\u2018zlarini kelajakdagi Yangi
+    O\u2018zbekiston o\u2018zgarishlarining bir qismi sifatida his qilish imkonini
+    yaratadi."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5476,7 +5679,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &542158566
@@ -5612,7 +5815,7 @@ MonoBehaviour:
     \u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6019,7 +6222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &589502946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6491,7 +6694,7 @@ MonoBehaviour:
   m_text: "\u0412\u0441\u0435\u0433\u0434\u0430 \u0441 \u043D\u0430\u0440\u043E\u0434\u043E\u043C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7381,7 +7584,7 @@ MonoBehaviour:
     \u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7580,7 +7783,7 @@ MonoBehaviour:
     \u0441\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u0430\u044F \u043F\u043E\u043B\u0438\u0442\u0438\u043A\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8071,6 +8274,205 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785799677}
   m_CullTransparentMesh: 1
+--- !u!1 &790876301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790876302}
+  - component: {fileID: 790876306}
+  - component: {fileID: 790876305}
+  - component: {fileID: 790876304}
+  - component: {fileID: 790876303}
+  m_Layer: 5
+  m_Name: Text (TMP) Uzb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &790876302
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790876301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1623888756}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 39, y: 780}
+  m_SizeDelta: {x: 1377.8528, y: 576.8765}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &790876303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b661b023a9e41999abbce427a0dd232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 1, b: 1, a: 0}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+--- !u!114 &790876304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af110d25dad1452fa91629d7cf2bd48b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tmpText: {fileID: 790876305}
+  duration: 1
+  delay: 0.05
+  progress: 1
+  playWhenReady: 0
+  loop: 0
+  playForever: 0
+  animationControlled: 1
+--- !u!114 &790876305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790876301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "\u201CYangi O\u2018zbekiston \u2013 Yangi Renassans poydevori\u201D ekspozitsiyasiga
+    xush kelibsiz!"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 128
+  m_fontSizeBase: 128
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: -0.1
+  m_wordSpacing: 0
+  m_lineSpacing: -23.5
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &790876306
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790876301}
+  m_CullTransparentMesh: 1
 --- !u!1 &799005272
 GameObject:
   m_ObjectHideFlags: 0
@@ -8164,7 +8566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &830570119
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8259,7 +8661,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &838866312
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8657,12 +9059,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mazkur zona 2017-yildan boshlab O\u2018zbekiston tashqi siyosatining yakkalanishdan
-    xalqaro yetakchilikka qarab o\u2018zgarish jarayonini aks ettiradi, shuningdek,
-    mamlakatning diplomatik yutuqlari va xavfsizligining mustahkamlanishini ko\u2018rsatadi."
+  m_text: "Mazkur bo\u2018lim 2017-yildan boshlab O\u2018zbekiston tashqi siyosatining
+    yakkalanishdan xalqaro yetakchilikka qarab o\u2018zgarish jarayonini aks ettiradi,
+    shuningdek, mamlakatning diplomatik yutuqlari va xavfsizligining mustahkamlanishini
+    ko\u2018rsatadi."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8725,7 +9128,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &859350735
@@ -8857,10 +9260,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Madaniy-ma\u2019rifiy kamolot"
+  m_text: "\u201CMadaniy-ma\u2019rifiy kamolot\u201D bo\u2018limi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8923,7 +9326,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &878071969
@@ -9419,7 +9822,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -494}
+  m_AnchoredPosition: {x: -8, y: -537}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &917131104
@@ -10738,10 +11141,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Yangi O\u2018zbekistonning yangilangan\_Konstitutsiyasi"
+  m_text: "\u201CYangi O\u2018zbekistonning yangilangan Konstitutsiyasi\u201D bo\u2018limi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10804,7 +11207,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1039348639
@@ -10979,12 +11382,12 @@ GameObject:
   - component: {fileID: 1071028474}
   - component: {fileID: 1071028473}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text (TMP) Rus1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1071028472
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11436,10 +11839,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hamisha xalq bilan
+  m_text: "\u201CDoimiy xalq bilan\u201D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11502,7 +11905,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1090543545
@@ -11530,7 +11933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1097881760
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11752,10 +12155,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2160, y: 3840}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -11845,7 +12248,7 @@ MonoBehaviour:
   SpeedAnim: 0.3
   TextJuicer: {fileID: 1703965067}
   LangList:
-  - "Ko\u2018rgazma xaritasi"
+  - Ekspozitsiya xaritasi!
   - "\u041A\u0430\u0440\u0442\u0430 \u044D\u043A\u0441\u043F\u043E\u0437\u0438\u0446\u0438\u0438"
   YouHereJuicer: {fileID: 268872436}
   LangYouHere:
@@ -11853,7 +12256,7 @@ MonoBehaviour:
   - "\u0412\u044B \u0437\u0434\u0435\u0441\u044C"
   ChoseZone: {fileID: 469724459}
   LangChoseZone:
-  - "Hududni tanlang, u haqida ko\u2018proq ma\u2019lumot olish uchun"
+  - "Tegishli bo\u2018limni  tanlang!"
   - "\u0412\u044B\u0431\u0435\u0440\u0438\u0442\u0435 \u0437\u043E\u043D\u0443, \u0447\u0442\u043E\u0431\u044B
     \u0443\u0437\u043D\u0430\u0442\u044C \u043F\u0440\u043E \u043D\u0435\u0451"
   AnimHand: {fileID: 763794666}
@@ -12176,7 +12579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1150128497
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12503,7 +12906,7 @@ MonoBehaviour:
     \u0438 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u044C\L\u0441\u0442\u0440\u0430\u043D\u044B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12965,7 +13368,7 @@ MonoBehaviour:
   m_text: "\u041A\u0443\u043B\u044C\u0442\u0443\u0440\u043D\u043E-\u043F\u0440\u043E\u0441\u0432\u0435\u0442\u0438\u0442\u0435\u043B\u044C\u0441\u043A\u043E\u0435\L\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0441\u0442\u0432\u043E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13057,7 +13460,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1226762278
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14196,7 +14599,7 @@ MonoBehaviour:
     \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044F\_\u0441\u0442\u0440\u0430\u043D\u044B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14404,7 +14807,7 @@ MonoBehaviour:
     \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14616,7 +15019,7 @@ MonoBehaviour:
     \u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D\u0430 \u0431\u0443\u0434\u0443\u0449\u0435\u0433\u043E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14708,7 +15111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1337423317
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15033,7 +15436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1359521060
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15268,7 +15671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: -929}
+  m_AnchoredPosition: {x: -15, y: -972}
   m_SizeDelta: {x: 818.8646, y: 297.5459}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1362338358
@@ -15853,11 +16256,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Yoshlar \u2014 Yangi O\u2018zbekistonning eng\_katta\_boyligi, bebaho
-    xazinasi"
+  m_text: "\u201CYoshlar \u2013 Yangi O\u2018zbekistonning eng katta boyligi, bebaho
+    xazinasi\u201D bo\u2018limi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15920,7 +16323,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1396627994
@@ -16006,6 +16409,81 @@ RectTransform:
   m_AnchoredPosition: {x: -240, y: -939}
   m_SizeDelta: {x: 678, y: 712}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1409865836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409865837}
+  - component: {fileID: 1409865839}
+  - component: {fileID: 1409865838}
+  m_Layer: 5
+  m_Name: "\u0417\u0435\u043B\u0451\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1409865837
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409865836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1710202262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -207.2, y: -627.4}
+  m_SizeDelta: {x: 25, y: 25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1409865838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409865836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3b5d207c017442c4e8954ddda7318db3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1409865839
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409865836}
+  m_CullTransparentMesh: 1
 --- !u!1 &1445633381
 GameObject:
   m_ObjectHideFlags: 0
@@ -16566,7 +17044,7 @@ MonoBehaviour:
     \u043D\u0430\u0441\u0435\u043B\u0435\u043D\u0438\u044F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16761,10 +17239,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Adolatli ijtimoiy siyosat
+  m_text: "\u201CAdolatli ijtimoiy siyosat\u201D bo\u2018limi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16827,7 +17305,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1535304255
@@ -17006,7 +17484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1546883477
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17483,7 +17961,7 @@ MonoBehaviour:
     \u043E\u0442\u043D\u043E\u0448\u0435\u043D\u0438\u044F\L\u0438 \u043C\u0438\u0440\u043E\u0432\u043E\u0437\u0437\u0440\u0435\u043D\u0438\u0435"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17789,6 +18267,8 @@ RectTransform:
   - {fileID: 75430942}
   - {fileID: 1071028472}
   - {fileID: 2051303870}
+  - {fileID: 790876302}
+  - {fileID: 536143294}
   - {fileID: 917131103}
   - {fileID: 1362338357}
   - {fileID: 1351530732}
@@ -17815,19 +18295,22 @@ MonoBehaviour:
   Gradient: {fileID: 75430943}
   NameText: {fileID: 1071028474}
   DescriptionText: {fileID: 2051303872}
+  NameUzb: {fileID: 790876304}
+  DescriptionUzb: {fileID: 536143296}
   HandText: {fileID: 1362338361}
   Hand: {fileID: 917131102}
   Names:
-  - "Uchinchi Renessans zaliga\_xush kelibsiz!"
+  - "\u201CYangi O\u2018zbekiston \u2013 Yangi Renassans poydevori\u201D ekspozitsiyasiga
+    xush kelibsiz!"
   - "\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C
     \L\u0432 \u0417\u0430\u043B \u0422\u0440\u0435\u0442\u044C\u0435\u0433\u043E
     \L\u0420\u0435\u043D\u0435\u0441\u0441\u0430\u043D\u0441\u0430!"
   Descriptions:
-  - "Bu zalda Yangi O'zbekiston orzusi va uni amalga oshirish - bu shunchaki istak
-    yoki subyektiv intilish emas, balki chuqur tarixiy shartlarga asoslangan obyektiv
-    zarurat ekani, mamlakatimizning hozirgi siyosiy-huquqiy, ijtimoiy-iqtisodiy,
-    tashqi siyosat va ma'naviy-ma'rifiy sohalardagi islohotlari bu orzuga mos tarzda
-    rivojlanayotgani ko\u2018rsatilgan."
+  - "Bu ekspozitsiyada Yangi O\u2018zbekiston orzusi va uni amalga oshirish \u2013
+    bu shunchaki istak yoki subyektiv intilish emas, balki chuqur tarixiy shartlarga
+    asoslangan obyektiv zarurat ekani, mamlakatimizning hozirgi siyosiy-huquqiy,
+    ijtimoiy-iqtisodiy, tashqi siyosat va ma\u2019naviy-ma\u2019rifiy sohalardagi
+    islohotlari bu orzuga mos tarzda rivojlanayotgani ko\u2018rsatilgan.\_"
   - "\u0417\u0434\u0435\u0441\u044C \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0430
     \u043A\u043E\u043D\u0446\u0435\u043F\u0446\u0438\u044F \xAB\u041D\u043E\u0432\u044B\u0439\L\u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D\xBB
     \u2014 \u0444\u0438\u043B\u043E\u0441\u043E\u0444\u0438\u044F \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044F,
@@ -17840,8 +18323,8 @@ MonoBehaviour:
     \u043A \u043D\u043E\u0432\u043E\u043C\u0443\L\u043E\u0431\u0440\u0430\u0437\u0443
     \u043C\u044B\u0448\u043B\u0435\u043D\u0438\u044F \u0438 \u0436\u0438\u0437\u043D\u0438."
   Hands:
-  - "Yangi O\u2018zbekiston \u2013 Yangi Renassans poydevori . Kichik harflarga tegishli
-    bo\u2018limni tanlang"
+  - "Yangi O\u2018zbekiston \u2013 Yangi Renassans poydevori .\_\LTegishli bo\u2018limni
+    tanlang!"
   - "\u0418\u0441\u0441\u043B\u0435\u0434\u0443\u0439\u0442\u0435 \u041D\u043E\u0432\u044B\u0439
     \L\u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D \u2014 \u043A\u043E\u0441\u043D\u0438\u0442\u0435\u0441\u044C
     \L\u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0443\u044E\u0449\u0435\u0439 \u0437\u043E\u043D\u044B"
@@ -18435,12 +18918,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hududda davlat idoralarining ning xalq bilan to\u2018g\u2018ridan-to\u2018g\u2018ri
+  m_text: "Ekspozitsiyada davlat idoralarining xalq bilan to\u2018g\u2018ridan-to\u2018g\u2018ri
     muloqoti mexanizmlari, xalq qabulxonalari faoliyati, fuqarolar murojaatlari tizimi
-    va davlat boshqaruvining ochiqligi \Lnamoyish etilgan."
+    va davlat boshqaruvining ochiqligi namoyish etilgan."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18503,7 +18986,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1699467113
@@ -18901,6 +19384,7 @@ RectTransform:
   - {fileID: 469724457}
   - {fileID: 763794667}
   - {fileID: 268872432}
+  - {fileID: 1409865837}
   m_Father: {fileID: 1107715556}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -19343,7 +19827,7 @@ MonoBehaviour:
     \u0441\u043E\u043A\u0440\u043E\u0432\u0438\u0449\u0435 \u041D\u043E\u0432\u043E\u0433\u043E\L\u0423\u0437\u0431\u0435\u043A\u0438\u0441\u0442\u0430\u043D\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -19897,7 +20381,7 @@ MonoBehaviour:
     \u0434\u0438\u0430\u043B\u043E\u0433\u0430"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20687,12 +21171,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bu hudud Konstitutsiyadagi va davlatchilik asoslaridagi asosiy o\u2018zgarishlarni
-    ifodalaydi, huquqiy tizim evolyutsiyasini va\_mamlakatning demokratik rivojlanish
-    tamoyillarini \Lnamoyish etadi."
+  m_text: "Bu bo\u2018lim konstitutsiyadagi va davlatchilik asoslaridagi asosiy o\u2018zgarishlarni
+    ifodalaydi, huquqiy tizim evolyutsiyasini va mamlakatning demokratik rivojlanish
+    tamoyillarini namoyish etadi."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -20755,7 +21239,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1898745020
@@ -20918,7 +21402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1943230991
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21116,16 +21600,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mazkur  hudud ijtimoiy sohadagi islohotlarni mahalla tizimi nuqtai nazaridan
-    ko\u2018rsatib beradi. \"Mahalla yettiligi\" \u2013 bu jamoa hayotining barcha
-    faol ishtirokchilarini o\u2018z ichiga olgan ijtimoiy faoliyatning ning yettita
-    asosiy yo\u2018nalishidir. Har bir vakil o\u2018z sohasiga mas\u2019uldir. Ular
-    birgalikda har bir mahalla miqyosida ijtimoiy himoya va rivojlanishning mukammal
-    tizimini yaratadi. Hududda ta\u2019lim, sog\u2018liqni saqlash va aholini ijtimoiy
-    himoya qilish sohalaridagi o\u2018zgarishlarni yoritilgan."
+  m_text: "Mazkur bo\u2018lim ijtimoiy sohadagi islohotlarni mahalla tizimi nuqtai
+    nazaridan ko\u2018rsatib beradi. \u201CMahalla yettiligi\u201D \u2013 bu jamoa
+    hayotining barcha faol ishtirokchilarini o\u2018z ichiga olgan ijtimoiy faoliyatning
+    yettita asosiy yo\u2018nalishidir. Har bir vakil o\u2018z sohasiga mas\u2019uldir.
+    Ular birgalikda har bir mahalla miqyosida ijtimoiy himoya va rivojlanishning
+    mukammal tizimini yaratadi.\_ Bo\u2018limda ta\u2019lim, sog\u2018liqni saqlash
+    va aholini ijtimoiy himoya qilish sohalaridagi o'zgarishlarni yoritilgan.    "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21188,7 +21672,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1945072245
@@ -22273,12 +22757,12 @@ GameObject:
   - component: {fileID: 2051303872}
   - component: {fileID: 2051303871}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Text (TMP) Rus2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2051303870
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22663,12 +23147,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hudud iqtisodiy o\u2018zgarishlar va innovatsion loyihalarni namoyish
+  m_text: "Bo\u2018limda iqtisodiy o\u2018zgarishlar va innovatsion loyihalarni namoyish
     etadi, zamonaviy O\u2018zbekistonning biznes muhiti, texnologiyalari va infratuzilma
     loyihalari rivojlanishini ko\u2018rsatadi."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -22731,7 +23215,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2077152958
@@ -22942,7 +23426,7 @@ MonoBehaviour:
     \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0438 \u0441\u0442\u0440\u0430\u043D\u044B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23393,12 +23877,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mazkur hudud madaniy merosning boyligini va madaniyat sohasidagi zamonaviy
-    yutuqlarni namoyon etadi, shuningdek, turizm, san\u2019at va madaniyatlararo
+  m_text: "Mazkur bo\u2018lim madaniy merosning boyligini va madaniyat sohasidagi
+    zamonaviy yutuqlarni namoyon etadi, shuningdek, turizm, san\u2019at va madaniyatlararo
     muloqotning rivojlanish jarayonini ko\u2018rsatib beradi."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -5268692108035773648, guid: c049d47516a189445be42dc2f4d1d9ce, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23461,7 +23945,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2088989600
@@ -23628,12 +24112,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Yangi iqtisodiy munosabatlar
-
-    va dunyoqarash'
+  m_text: "\u201CYangi iqtisodiy munosabatlar va \ndunyoqarash\u201D bo\u2018limi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 3407779972233721614, guid: 004d4b9f375752247a7327e3c8118671, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -23696,7 +24178,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2107292657
@@ -24268,7 +24750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2145507442
 RectTransform:
   m_ObjectHideFlags: 0
