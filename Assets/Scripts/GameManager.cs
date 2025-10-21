@@ -48,7 +48,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        CurrentLang = 1;
+        CurrentLang = 0;
         _standbyClass = FindObjectOfType<StandbyClass>(true);
         _color = b_Uzb.image.color;
         b_Uzb.onClick.AddListener(OnUzb);
@@ -62,7 +62,20 @@ public class GameManager : MonoBehaviour
         OnAllButton();
         _standbyClass.Init();
         StartCoroutine(AnimActivateButtons());
-        StartCoroutine(ChangeLang(b_Rus.image));
+        StartCoroutine(ChangeLang(b_Uzb.image));
+    }
+
+    public void ChangeLang()
+    {
+        CurrentLang++;
+        if (CurrentLang >= 2)
+            CurrentLang = 0;
+        OffLangButtons();
+        OffStandby();
+        if (CurrentLang == 0)
+            StartCoroutine(ChangeLang(b_Uzb.image));
+        if(CurrentLang == 1)
+            StartCoroutine(ChangeLang(b_Rus.image));
     }
 
     public void OffAllButton()

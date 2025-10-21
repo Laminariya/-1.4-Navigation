@@ -26,6 +26,7 @@ public class StandbyClass : MonoBehaviour
     
     private float _time = 0f;
     private bool _isActive = false;
+    private float _timer = 0f;
     
     public void Init()
     {
@@ -46,16 +47,40 @@ public class StandbyClass : MonoBehaviour
         {
             _time = Time.time;
         }
+
+        if (_isActive && Time.time - _timer > 5f)
+        {
+            GameManager.instance.ChangeLang();
+            _timer = Time.time;
+            
+            StartCoroutine(ChangeLangCoroutine());
+        }
     }
 
-    public void Show()
+    IEnumerator ChangeLangCoroutine()
     {
-        if(GameManager.instance.CurrentCart!=null)
-            GameManager.instance.CurrentCart.Hide();
-        GameManager.instance.OnStandby();
+        HandText.Text = Hands[GameManager.instance.CurrentLang];
+        Gradient.color = new Color(1f,1f,1f,1f);
+        float progress = 1f;
+        while (progress>0f)
+        {
+            progress -= Time.deltaTime*2f;
+            NameText.SetProgress(progress);
+            NameText.Update();
+            DescriptionText.SetProgress(progress);
+            DescriptionText.Update();
+            NameUzb.SetProgress(progress);
+            NameUzb.Update();
+            DescriptionUzb.SetProgress(progress);
+            DescriptionUzb.Update();
+            HandText.SetProgress(progress);
+            HandText.Update();
+            yield return null;
+        }
+        
         _isActive = true;
-        _button.gameObject.SetActive(false);
-        Gradient.gameObject.SetActive(true);
+        _time = Time.time;
+        
         if (GameManager.instance.CurrentLang == 0)
         {
             NameText.gameObject.SetActive(false);
@@ -71,8 +96,49 @@ public class StandbyClass : MonoBehaviour
             NameUzb.gameObject.SetActive(false);
             DescriptionUzb.gameObject.SetActive(false);
         }
+        
+        HandText.Text = Hands[GameManager.instance.CurrentLang];
+        
+        progress = 0f;
+        while (progress<1f)
+        {
+            progress += Time.deltaTime*2f;
+            NameText.SetProgress(progress);
+            NameText.Update();
+            DescriptionText.SetProgress(progress);
+            DescriptionText.Update();
+            
+            NameUzb.SetProgress(progress);
+            NameUzb.Update();
+            DescriptionUzb.SetProgress(progress);
+            DescriptionUzb.Update();
+            
+            HandText.SetProgress(progress);
+            HandText.Update();
+            
+            yield return null;
+        }
+        
+    }
 
+    public void Show()
+    {
+        _timer = Time.time;
+        GameManager.instance.CurrentLang = 1;
+        if(GameManager.instance.CurrentCart!=null)
+            GameManager.instance.CurrentCart.Hide();
+        GameManager.instance.OnStandby();
+        _isActive = true;
+        _button.gameObject.SetActive(false);
+        Gradient.gameObject.SetActive(true);
+        
+            NameText.gameObject.SetActive(false);
+            DescriptionText.gameObject.SetActive(false);
+            NameUzb.gameObject.SetActive(true);
+            DescriptionUzb.gameObject.SetActive(true);
        
+        GameManager.instance.ChangeLang();
+        _timer = Time.time;
         HandText.gameObject.SetActive(true);
         //Hand.SetActive(true);
         StartCoroutine(ShowCoroutine());
